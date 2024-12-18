@@ -1,0 +1,15 @@
+.products {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 200px;
+}
+
+.container {
+    /* display: flex; */
+    margin-top: 40px;
+}
+
+.imageProducts {
+    width: 60px;
+}
