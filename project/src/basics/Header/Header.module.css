@@ -4,15 +4,29 @@ header {
     align-items: center;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    margin: 20px 0;
+h1 {
+    text-align: center;
 }
 
-i {
-    position: relative;
-    left: 800px;
+.container {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.icons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 50px;
+  font-size: 25px;
+  position: relative;
+  left: 800px;
+}
+
+.user {
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
 
 ul {
@@ -21,6 +35,10 @@ ul {
     width: 1000px;
     margin: 0;
     list-style: none;
+}
+
+.cart {
+    
 }
 
 

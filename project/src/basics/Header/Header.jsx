@@ -1,12 +1,25 @@
 import styles from './Header.module.css'
 
 function Header() {
+
+    const userName = "Usuário"
     return (
         <header>
 
             <div className={styles.container}>
-                <h1>Loja</h1>
-                <i class="fa-solid fa-cart-shopping"></i>
+                
+                    <h1>Loja</h1>
+                
+                <div className={styles.icons}>
+                    <i class="fa-solid fa-cart-shopping"> <span className={styles.cart}> 1</span></i> 
+
+                    <div className={styles.user}>
+                        <i class="fa-solid fa-user"></i>
+                        <p>{userName}</p>
+                    </div>
+
+                </div>
+
             </div>
 
             <nav>

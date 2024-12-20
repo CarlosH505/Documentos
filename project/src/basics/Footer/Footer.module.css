@@ -1,14 +1,25 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    height: 100vh;
-}
-
 footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: grey;
-    height: 80px;
+    height: 250px;
+    color: white;
+    font-size: larger;
+}
+
+
+.icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+a:visited {
+    color: white;
+}
+
+iframe {
+    margin-top: 10px;
 }
